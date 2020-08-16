@@ -1,6 +1,5 @@
 const Discord = require("discord.js"); // Le dieu du soleil
 const fs = require('fs');
-var config = require("./config.json")
 const prefix = "s!"
 
 
