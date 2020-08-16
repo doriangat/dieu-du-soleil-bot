@@ -3,7 +3,7 @@ const fs = require('fs');
 const { isNullOrUndefined } = require('util');
 
 module.exports = {
-	name: 'h [texte]',
+	name: 'e [texte]',
 	description: "Pour faire parler le bot",
 }
 
@@ -13,7 +13,7 @@ module.exports.run = async (bot, message, args) => {
 {
         message.delete();
         var couteau = new Discord.Message()
-        var prefix = "s!h" ;
+        var prefix = "s!e" ;
         
         const args = message.content.slice(prefix.length).trim().split('/ +/');
        
@@ -31,5 +31,5 @@ module.exports.run = async (bot, message, args) => {
     }
 
 module.exports.help = {
-    name: "h"
+    name: "e"
 }
