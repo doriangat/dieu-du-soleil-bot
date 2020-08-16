@@ -44,4 +44,4 @@ if(cmd) cmd.run(bot, message, args);
 }) 
 
 
-bot.login("process.env.TOKEN")
+bot.login(process.env.TOKEN)
